@@ -21,7 +21,6 @@ void displayPatientTableHeader(void)
            "----- --------------- --------------------\n");
 }
 
-// !!! DO NOT MODIFY THIS FUNCTION DEFINITION !!!
 // Displays a single patient record in FMT_FORM | FMT_TABLE format
 void displayPatientData(const struct Patient* patient, int fmt)
 {
@@ -42,7 +41,6 @@ void displayPatientData(const struct Patient* patient, int fmt)
     }
 }
 
-// !!! DO NOT MODIFY THIS FUNCTION DEFINITION !!!
 // Display's appointment schedule headers (date-specific or all records)
 void displayScheduleTableHeader(const struct Date* date, int isAllRecords)
 {
@@ -62,7 +60,6 @@ void displayScheduleTableHeader(const struct Date* date, int isAllRecords)
     }
 }
 
-// !!! DO NOT MODIFY THIS FUNCTION DEFINITION !!!
 // Display a single appointment record with patient info. in tabular format
 void displayScheduleData(const struct Patient* patient,
                          const struct Appointment* appoint,
@@ -86,7 +83,6 @@ void displayScheduleData(const struct Patient* patient,
 // MENU & ITEM SELECTION FUNCTIONS
 //////////////////////////////////////
 
-// !!! DO NOT MODIFY THIS FUNCTION DEFINITION !!!
 // main menu
 void menuMain(struct ClinicData* data)
 {
@@ -124,7 +120,6 @@ void menuMain(struct ClinicData* data)
     } while (selection);
 }
 
-// !!! DO NOT MODIFY THIS FUNCTION DEFINITION !!!
 // Menu: Patient Management
 void menuPatient(struct Patient patient[], int max)
 {
@@ -168,7 +163,6 @@ void menuPatient(struct Patient patient[], int max)
     } while (selection);
 }
 
-// !!! DO NOT MODIFY THIS FUNCTION DEFINITION !!!
 // Menu: Patient edit
 void menuPatientEdit(struct Patient* patient)
 {
@@ -207,7 +201,6 @@ void menuPatientEdit(struct Patient* patient)
 }
 
 
-// !!! DO NOT MODIFY THIS FUNCTION DEFINITION !!!
 // Menu: Appointment Management
 void menuAppointment(struct ClinicData* data)
 {
